@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90vmin;
+  width: 90vmin;
+}
+
+.row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.gridbox {
+  border: 1px solid #dfdfdf;
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+}
